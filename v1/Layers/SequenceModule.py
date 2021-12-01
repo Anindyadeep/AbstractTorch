@@ -29,3 +29,35 @@ class _RNN(nn.Module):
     
     def _perform_rnn(self):
         pass 
+
+
+class _LSTM(nn.Module):
+    def __init__(self, layer_profile, arch_profile, params_profile, x, input_size, hidden_size, num_layers, activation, bias, batch_first, dropout, bi_diractional):
+        self._layer_profile = layer_profile
+        self._arch_profile = arch_profile
+        self._params_profile = params_profile
+        self._x = x
+        self._input_size = input_size
+        self._hidden_size = hidden_size
+        self._num_layers = num_layers
+        self._non_linearity = activation
+        self._bias = bias 
+        self._batch_first = batch_first
+        self._dropout = dropout
+        self._bi_directional = bi_diractional
+    
+    def _perform_lstm_cell(self):
+        pass 
+
+
+
+class _Attention(nn.Module):
+    def __init__(self, num_heads):
+        pass 
+
+
+class _Transformers(nn.Module):
+    def __init__(self):
+        pass 
+
+    

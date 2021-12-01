@@ -18,6 +18,22 @@ TODO
 
 """
 
+
+class _Conv1d(object):
+    def __init__(self):
+        pass 
+
+    def _perform_conv1d(self):
+        pass 
+
+class _Conv3d(object):
+    def _init__(self):
+        pass 
+
+    def _perform_conv1d(self):
+        pass 
+
+
 class _Conv2d(nn.Module):
     def __init__(self, layer_profile, arch_profile, params_profile, x, num_filters, kernel_size, padding = 1, stride = 1, dilation = (1,1), activation = None, dropout = None):
         super(_Conv2d, self).__init__()
@@ -101,6 +117,12 @@ class _Conv2d(nn.Module):
             self._params_profile,
             self._x_conv2d,
         ]
+
+
+
+
+
+
 
 
 
