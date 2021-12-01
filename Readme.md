@@ -8,8 +8,7 @@
 
 
 How, would it feel, if we could save some of the time of writting the long codes of pytorch, and would complete the full process in 10-15 lines
-like keras, but have same kind of customization and features like pytorch and would be running pytorch in the backend at the same time, then it would be 
-really cool. Yeah, its true that pytorch lightning is already present, but home made things has its own vibes.... 😅😁.
+like keras, but have same kind of customization and features like pytorch and would be running pytorch in the backend at the same time, then it would be really cool..
 
 
 ### Features to be expected right now, in this version:
